@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JUST DO IT SDHOE</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0%;
+      font-family: 'Poppins', sans-serif;
+      background: #f4f4f4;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 80px;
+      background: black;
+      color: white;
+      align-items: center;
+    }
+   .navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+   } 
+   .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 100%; 
+    background: white;
+   }
+   .about {
+    display: flex;
+    align-items: center;
+    padding: 80px;
+    gap: 60px;
+    background: #f4f4f4;
+   }
+   .product {
+    padding: 100px;
+    text-align: center;
+   }
+   .product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+   }
+   .card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 250px;
+   box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+   }
+   .card:hover {
+  transform: translateY(-10px);
+}
+   footer {
+    text-align: center;
+    padding: 30px;
+    background: black;
+    color: white;
+   }
+   .hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 8%;
+  background: linear-gradient(to right, #000000, #1a1a1a);
+  color: white;
+}
+
+.hero-text h2 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.hero-text p {
+  margin: 20px 0;
+  color: #ccc;
+}
+
+button {
+  background: gold;
+  color: black;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+img {
+  width: 100%;
+  border-radius: 15px;
+}
+@media (max-width: 900px) {
+  .hero,
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .product-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+  </style>
+</head>
+<body>
+  <!--Navbar-->
+<nav class="navbar">
+ <h1>JUST DO IT SHOE MAKING WORKSHOP</h1>
+ <ul>
+  <li>HOME</li>
+  <li>Product</li>
+  <li>About</li>
+  <li>Contact</li>
+ </ul>
+</nav>
+
+<!-- HERO SECTION-->
+ <section class="hero">
+  <div class="hero-text">
+    <h2>Crafted for Confidence</h2>
+    <p>Premium handmade footwear built for style and durability</p>
+    <button>View Collections</button>
+  </div>
+
+  <div class="hero-image">
+    <img src="shoe.png.webp" alt="shoe-image">
+  </div>
+</section>
+
+  <!--About section-->
+ <section class="about">
+ <img src="images.jpg" alt="workshop">
+ <div>
+  <h2>About out brand</h2>
+  <p>We create handcrafted shoes using premium leather and modern techniques.</p>
+ </div>
+ </section>
+
+ <!--Product section-->
+ <section class="product">
+  <h2>Our collection</h2>
+  <div class="product-grid">
+    <div class="card">
+      <img src="shoe.2.jpg" alt="loafer">
+      <h3>Class Loafer</h3>
+      <p>50,000</p>
+    </div>
+    <div class="card">
+    <img src="shoe3.jpg" alt="img3">
+    <h3>Formal Leather</h3>
+    <p>45,000</p>
+   </div>
+  </div>
+</section>
+<!--FOOTER-->
+<footer>
+  <p>2026 JUST DO IT SHOES|All Rights Reserved</p>
+</footer>
+</body>
+</html>
